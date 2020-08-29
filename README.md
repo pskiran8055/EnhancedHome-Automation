@@ -5,17 +5,16 @@ String textForSMS;
 int smokes= A1; // mq9 senson pin a0 is connected to a1 pin of arduino
 int data = 0; // first we are declaring the data as 0
 void setup() {
-
-
   randomSeed(analogRead(0));
 
   Serial.begin(9600);
  SIM900.begin(9600); // for sim 900a it is 9600
   pinMode(smokes, INPUT);
-
+  pinMode( Alert , INPUT);
+}
 }
 
-void loop() {
+void loop() {{
 
   data = analogRead(smokes); // Taking values from mq9 sensor and storing in data
 
