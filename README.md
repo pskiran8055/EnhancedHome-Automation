@@ -19,6 +19,9 @@ void setup() {
   Serial.begin(9600);
  SIM900.begin(9600); // for sim 900a it is 9600
 
+  pinMode(smokes, INPUT),pinMode(Alert ,Input )  
+=======
+
   pinMode(smokes, INPUT);
 
 }
@@ -26,6 +29,7 @@ void setup() {
 void loop() {
 =======
   pinMode(smokes, INPUT); pinMode( Alert , INPUT);
+
 }
 
 void loop() {{
