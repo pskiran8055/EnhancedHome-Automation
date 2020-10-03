@@ -28,7 +28,7 @@ void loop() {
   pinMode(smokes, INPUT); pinMode( Alert , INPUT);
 }
 void loop() {{
-@@ -31,7 +32,8 @@
+
 @@ -33,6 +53,8 @@ while(1)
 }
   }
