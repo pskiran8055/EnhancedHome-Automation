@@ -2,7 +2,6 @@ GSM Alert Code
 
 #include <SoftwareSerial.h>
 SoftwareSerial SIM900(7, 8); // gsm pins tdx and rdx is connected to arduino pins 7 and 8
-SoftwareSerial SIM900(8, 9); // gsm pins tdx and rdx is connected to arduino pins 8 and 9
 String textForSMS;
 int smokes= A1; // mq9 senson pin a0 is connected to a1 pin of arduino
 int data = 0; // first we are declaring the data as 0
